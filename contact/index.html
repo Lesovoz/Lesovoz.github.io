@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/print.css" media="print"/>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css"/>
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.ie.css"/>
+    <![endif]-->
+
+    <title>ООО «ЛесТрансСервис» — Минск, Беларусь —</title>
+</head>
+
+<body>
+<div id="container">
+    <div class="inner">
+
+        <header>
+            <h1>ЛесТрансСервис</h1>
+
+            <h2><a href="http://lesovoz.by">Lesovoz.by</a> — Минск, Беларусь</h2>
+            Перевозки лесоматериалов (бревен, срубов) автомобильным транспортом
+        </header>
+
+        <hr>
+
+        <ul>
+            <li><a href="/">Главная</a></li>
+            <li><a href="/serv">Услуги</a></li>
+            <li><a href="/prod">Продукция</a></li>
+            <li><a href="/contact">Контакты</a></li>
+        </ul>
+        <hr>
+
+        <section id="main_content">
+
+<pre><div id="map" class="map" style="height: 333px"></div>
+            <script src="../javascripts/leaflet.js"></script>
+            <script>
+                var map = L.map('map').setView([53.96464, 27.62366], 11);
+                L.tileLayer('http://{s}.tile.cloudmade.com/bfb13ad7873344d2bb951ad91e619c0f/997/256/{z}/{x}/{y}.png', {
+                    maxZoom: 18,
+                    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>'
+                }).addTo(map);
+                L.circle([53.96464, 27.62366], 333, {
+                    color: 'green',
+                    fillColor: '#0f0',
+                    fillOpacity: 0.2
+                }).addTo(map).bindPopup("Мы ждём Вас тут!");
+            </script>
+ООО «ЛесТрансСервис»
+Республика Беларусь
+223053 Минский район,
+«Бизнес-Центр Аквабел»
+район д. Боровая 1, офис 304.
+тел./fax: +375 17 237-93-04
+тел.: +375 29 650-57-46
+<a href="mailto:ltsbel@mail.ru">ltsbel@mail.ru</a></pre>
+
+
+        </section>
+
+        <footer>
+            ООО "ЛесТрансСервис" &nbsp;&nbsp; УНП 191453533
+        </footer>
+
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-45750071-1', 'lesovoz.github.io');
+            ga('send', 'pageview');
+        </script>
+
+    </div>
+</div>
+</body>
+</html>
