@@ -36,7 +36,7 @@
             <li><a href="/">Главная</a></li>
             <li><a href="/serv">Услуги</a></li>
             <li><a href="/prod">Продукция</a></li>
-            <li><a href="/contact">Контакты</a></li>
+            <li><a href="/contact">Контакты</a>&darr;</li>
         </ul>
         <hr>
 
@@ -45,10 +45,10 @@
 <pre><div id="map" class="map" style="height: 333px"></div>
             <script src="../javascripts/leaflet.js"></script>
             <script>
-                var map = L.map('map').setView([53.96464, 27.62366], 11);
+                var map = L.map('map').setView([53.94, 27.61], 11);
                 L.tileLayer('http://{s}.tile.cloudmade.com/bfb13ad7873344d2bb951ad91e619c0f/997/256/{z}/{x}/{y}.png', {
                     maxZoom: 18,
-                    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>'
+                    attribution: '<a href="http://openstreetmap.org">OpenStreetMap</a>'
                 }).addTo(map);
                 L.circle([53.96464, 27.62366], 333, {
                     color: 'green',
