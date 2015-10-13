@@ -47,10 +47,15 @@
                     maxZoom: 18,
                     attribution: '<a href="http://openstreetmap.org">OpenStreetMap</a>'
                 }).addTo(map);
-                L.circle([53.959832, 27.632133], 333, {
+                L.circle([53.959832, 27.632133], 233, {
                     color: 'green',
                     fillColor: '#0f0',
-                    fillOpacity: 0.2
+                    fillOpacity: 0.3
+                }).addTo(map).bindPopup("Мы ждём Вас тут!");
+                L.circle([53.959832, 27.632133], 433, {
+                    color: 'red',
+//                    fillColor: '#0f0',
+                    fillOpacity: 0.1
                 }).addTo(map).bindPopup("Мы ждём Вас тут!");
             </script>
     <table><tr><td>ООО «ЛесТрансСервис»
@@ -66,7 +71,7 @@
 
 УНП 191453533   ОКПО 379540885000
 р/с  3012088590016 в ЗАО «МТБанк»,
-ЦБУ №3,  код 117
+ЦБУ №3, код 117
 Адрес банка:  г.Минскул.Короля, 51</td><td>LesTransService Co.Ltd
 
 Republic of Belarus
@@ -74,10 +79,11 @@ Republic of Belarus
 
 EUR 3012088590016
 JSC "MTBank"  SWIFT: MTBKBY22
+
 Correspondent Account:  40  0886848100EUR
 Commerzbank AG60261 Frankfurt, Kaizerplatz,
 Frankfurt am Main, Germany, BLZ: 50040000
-SWIFTCOBADEFF</td></tr></table>
+SWIFT COBADEFF</td></tr></table>
 </pre>
 
 
