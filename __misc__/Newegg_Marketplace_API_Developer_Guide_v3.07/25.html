@@ -1,0 +1,154 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="jpedal" style="overflow: hidden; position: relative; width: 935px; height: 1210px;">
+
+<!-- Begin shared CSS values -->
+<style type="text/css" >
+.t {
+	-webkit-transform-origin: top left;
+	-moz-transform-origin: top left;
+	-o-transform-origin: top left;
+	-ms-transform-origin: top left;
+	-webkit-transform: scale(0.25);
+	-moz-transform: scale(0.25);
+	-o-transform: scale(0.25);
+	-ms-transform: scale(0.25);
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_25{left:866px;top:1138px;}
+#t2_25{left:144px;top:137px;}
+#t3_25{left:137px;top:161px;}
+#t4_25{left:165px;top:185px;}
+#t5_25{left:192px;top:208px;letter-spacing:0.1px;word-spacing:-0.1px;}
+#t6_25{left:165px;top:232px;letter-spacing:0.7px;}
+#t7_25{left:137px;top:256px;letter-spacing:0.4px;}
+#t8_25{left:137px;top:304px;}
+#t9_25{left:137px;top:328px;}
+#ta_25{left:137px;top:375px;}
+#tb_25{left:137px;top:423px;}
+#tc_25{left:137px;top:471px;}
+#td_25{left:137px;top:495px;}
+#te_25{left:137px;top:518px;}
+#tf_25{left:137px;top:542px;}
+#tg_25{left:137px;top:566px;}
+#th_25{left:137px;top:590px;}
+#ti_25{left:137px;top:614px;}
+#tj_25{left:137px;top:661px;}
+#tk_25{left:137px;top:685px;}
+#tl_25{left:137px;top:709px;}
+#tm_25{left:137px;top:733px;}
+#tn_25{left:137px;top:781px;}
+#to_25{left:137px;top:804px;}
+#tp_25{left:137px;top:852px;}
+#tq_25{left:192px;top:876px;}
+#tr_25{left:192px;top:900px;letter-spacing:0.1px;}
+#ts_25{left:192px;top:924px;}
+#tt_25{left:192px;top:947px;}
+#tu_25{left:192px;top:971px;}
+#tv_25{left:192px;top:995px;}
+#tw_25{left:192px;top:1019px;}
+#tx_25{left:192px;top:1043px;}
+#ty_25{left:192px;top:1067px;}
+
+.s1_25{
+	FONT-SIZE: 55px;
+	FONT-FAMILY: 'Times New Roman', Times, serif;
+	color: rgb(0,0,0);
+}
+
+.s2_25{
+	FONT-SIZE: 55px;
+	FONT-FAMILY: CourierNew_gl25;
+	color: rgb(0,0,0);
+}
+
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts25" type="text/css" >
+
+@font-face {
+	font-family: CourierNew_gl25;
+	src: url("fonts/CourierNew_gl.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div id="t1_25" class="t s1_25">25 </div>
+<div id="t2_25" class="t s2_25">// Create all-trusting host name verifier </div>
+<div id="t3_25" class="t s2_25">HostnameVerifier allHostsValid = new HostnameVerifier() { </div>
+<div id="t4_25" class="t s2_25">public boolean verify(String hostname, SSLSession session) { </div>
+<div id="t5_25" class="t s2_25">return true; </div>
+<div id="t6_25" class="t s2_25">} </div>
+<div id="t7_25" class="t s2_25">}; </div>
+<div id="t8_25" class="t s2_25">// Install the all-trusting host verifier </div>
+<div id="t9_25" class="t s2_25">HttpsURLConnection.setDefaultHostnameVerifier(allHostsValid); </div>
+<div id="ta_25" class="t s2_25">URL url = new URL(requestUrl); </div>
+<div id="tb_25" class="t s2_25">HttpsURLConnection httpsConnection = (HttpsURLConnection)url.openConnection(); </div>
+<div id="tc_25" class="t s2_25">//javax.net.ssl. = false; </div>
+<div id="td_25" class="t s2_25">//Set accepted format in response message:application/xml|application/json </div>
+<div id="te_25" class="t s2_25">httpsConnection.setRequestProperty("Accept", "application/xml"); </div>
+<div id="tf_25" class="t s2_25">//Set the accepted format in request body:application/xml|application/json </div>
+<div id="tg_25" class="t s2_25">httpsConnection.setRequestProperty("content-type", "application/xml"); </div>
+<div id="th_25" class="t s2_25">//Set the request method:GET|PUT|POST </div>
+<div id="ti_25" class="t s2_25">httpsConnection.setRequestMethod("PUT"); </div>
+<div id="tj_25" class="t s2_25">//Set authorization key </div>
+<div id="tk_25" class="t s2_25">httpsConnection.setRequestProperty("Authorization", "720ddc067f4d115bd544aff46bc75634"); </div>
+<div id="tl_25" class="t s2_25">//Set secret-key </div>
+<div id="tm_25" class="t s2_25">httpsConnection.setRequestProperty("SecretKey", "21EC2020-3AEA-1069-A2DD-08002B30309D"); </div>
+<div id="tn_25" class="t s2_25">httpsConnection.setDoInput(true); </div>
+<div id="to_25" class="t s2_25">httpsConnection.setDoOutput(true); </div>
+<div id="tp_25" class="t s2_25">String requestStr = "&lt;NeweggAPIRequest&gt;" </div>
+<div id="tq_25" class="t s2_25">+ "&lt;OperationType&gt;GetOrderInfoRequest&lt;/OperationType&gt;" </div>
+<div id="tr_25" class="t s2_25">+ "&lt;RequestBody&gt;" </div>
+<div id="ts_25" class="t s2_25">+ "&lt;PageIndex&gt;1&lt;/PageIndex&gt;" </div>
+<div id="tt_25" class="t s2_25">+ "&lt;PageSize&gt;10&lt;/PageSize&gt;" </div>
+<div id="tu_25" class="t s2_25">+ "&lt;RequestCriteria&gt;" </div>
+<div id="tv_25" class="t s2_25">+ "&lt;OrderNumberList&gt;" </div>
+<div id="tw_25" class="t s2_25">+ "&lt;OrderNumber&gt;159243598&lt;/OrderNumber&gt;" </div>
+<div id="tx_25" class="t s2_25">+ "&lt;OrderNumber&gt;41473642&lt;/OrderNumber&gt;" </div>
+<div id="ty_25" class="t s2_25">+ "&lt;/OrderNumberList&gt;" </div>
+
+<!-- End text definitions -->
+
+<!-- Begin page background -->
+<div id="pg25Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg25"><object width="935" height="1210" data="25/25.svg" type="image/svg+xml" id="pdf25" style="width:935px; height:1210px; background-color:white; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+<!--[if lt IE 9]><script type="text/javascript">
+(function(divCount, pageNum) {
+for (var i = 1; i < divCount; i++) {
+    var div = document.getElementById('t' + i.toString(36) + '_' + pageNum);
+    if (div !== null) {
+        div.style.top = (div.offsetTop * 4) + 'px';
+        div.style.left = (div.offsetLeft * 4) + 'px';
+        div.style.zoom = '25%';
+    }
+}
+})(35, 25);
+</script><![endif]-->
+
+</div>
+</body>
+</html>

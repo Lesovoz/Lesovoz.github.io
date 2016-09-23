@@ -1,0 +1,160 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="jpedal" style="overflow: hidden; position: relative; width: 935px; height: 1210px;">
+
+<!-- Begin shared CSS values -->
+<style type="text/css" >
+.t {
+	-webkit-transform-origin: top left;
+	-moz-transform-origin: top left;
+	-o-transform-origin: top left;
+	-ms-transform-origin: top left;
+	-webkit-transform: scale(0.25);
+	-moz-transform: scale(0.25);
+	-o-transform: scale(0.25);
+	-ms-transform: scale(0.25);
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_30{left:866px;top:1138px;}
+#t2_30{left:76px;top:113px;}
+#t3_30{left:69px;top:137px;}
+#t4_30{left:55px;top:185px;}
+#t5_30{left:55px;top:208px;}
+#t6_30{left:55px;top:232px;}
+#t7_30{left:55px;top:256px;}
+#t8_30{left:55px;top:304px;}
+#t9_30{left:55px;top:328px;}
+#ta_30{left:87px;top:351px;}
+#tb_30{left:87px;top:375px;}
+#tc_30{left:87px;top:399px;}
+#td_30{left:87px;top:423px;}
+#te_30{left:87px;top:447px;}
+#tf_30{left:87px;top:471px;}
+#tg_30{left:87px;top:518px;}
+#th_30{left:87px;top:542px;}
+#ti_30{left:87px;top:566px;}
+#tj_30{left:87px;top:590px;}
+#tk_30{left:87px;top:614px;}
+#tl_30{left:87px;top:638px;}
+#tm_30{left:87px;top:661px;}
+#tn_30{left:87px;top:685px;}
+#to_30{left:87px;top:709px;}
+#tp_30{left:87px;top:733px;}
+#tq_30{left:87px;top:781px;}
+#tr_30{left:87px;top:804px;}
+#ts_30{left:87px;top:828px;}
+#tt_30{left:87px;top:876px;}
+#tu_30{left:55px;top:900px;}
+#tv_30{left:55px;top:924px;}
+#tw_30{left:55px;top:947px;}
+#tx_30{left:87px;top:971px;}
+#ty_30{left:87px;top:995px;}
+#tz_30{left:55px;top:1019px;}
+#t10_30{left:55px;top:1043px;}
+#t11_30{left:55px;top:1067px;}
+
+.s1_30{
+	FONT-SIZE: 55px;
+	FONT-FAMILY: 'Times New Roman', Times, serif;
+	color: rgb(0,0,0);
+}
+
+.s2_30{
+	FONT-SIZE: 55px;
+	FONT-FAMILY: CourierNew_gl30;
+	color: rgb(0,0,0);
+}
+
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts30" type="text/css" >
+
+@font-face {
+	font-family: CourierNew_gl30;
+	src: url("fonts/CourierNew_gl.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div id="t1_30" class="t s1_30">30 </div>
+<div id="t2_30" class="t s2_30">&lt;Value&gt;9SIA08I0492622&lt;/Value&gt; </div>
+<div id="t3_30" class="t s2_30">&lt;/ContentQueryCriteria&gt;'; </div>
+<div id="t4_30" class="t s2_30">$header_array =array('Content-Type:application/xml', </div>
+<div id="t5_30" class="t s2_30">'Accept:application/xml', </div>
+<div id="t6_30" class="t s2_30">'Authorization: your API-key here', </div>
+<div id="t7_30" class="t s2_30">'SecretKey: your secretkey here'); </div>
+<div id="t8_30" class="t s2_30">try </div>
+<div id="t9_30" class="t s2_30">{ </div>
+<div id="ta_30" class="t s2_30">// Get the curl session object </div>
+<div id="tb_30" class="t s2_30">$session = curl_init($request); </div>
+<div id="tc_30" class="t s2_30">$putString = stripslashes($body); </div>
+<div id="td_30" class="t s2_30">$putData = tmpfile(); </div>
+<div id="te_30" class="t s2_30">fwrite($putData, $putString); </div>
+<div id="tf_30" class="t s2_30">fseek($putData, 0); </div>
+<div id="tg_30" class="t s2_30">// Set the POST options. </div>
+<div id="th_30" class="t s2_30">curl_setopt($session, CURLOPT_HEADER, 1); </div>
+<div id="ti_30" class="t s2_30">curl_setopt($session,CURLOPT_HTTPHEADER,$header_array); </div>
+<div id="tj_30" class="t s2_30">curl_setopt($session, CURLOPT_POST, true); </div>
+<div id="tk_30" class="t s2_30">curl_setopt($session, CURLOPT_HEADER, false); </div>
+<div id="tl_30" class="t s2_30">curl_setopt($session, CURLOPT_RETURNTRANSFER, true); </div>
+<div id="tm_30" class="t s2_30">curl_setopt($session, CURLOPT_POSTFIELDS, $body); </div>
+<div id="tn_30" class="t s2_30">curl_setopt($session, CURLOPT_SSL_VERIFYPEER, 0); </div>
+<div id="to_30" class="t s2_30">curl_setopt($session, CURLOPT_INFILE, $putData); </div>
+<div id="tp_30" class="t s2_30">curl_setopt($session, CURLOPT_INFILESIZE, strlen($putString)); </div>
+<div id="tq_30" class="t s2_30">// Do the POST and then close the session </div>
+<div id="tr_30" class="t s2_30">$response = curl_exec($session); </div>
+<div id="ts_30" class="t s2_30">curl_close($session); </div>
+<div id="tt_30" class="t s2_30">print $response; </div>
+<div id="tu_30" class="t s2_30">} </div>
+<div id="tv_30" class="t s2_30">catch (InvalidArgumentException $e) </div>
+<div id="tw_30" class="t s2_30">{ </div>
+<div id="tx_30" class="t s2_30">curl_close($session); </div>
+<div id="ty_30" class="t s2_30">throw $e; </div>
+<div id="tz_30" class="t s2_30">} </div>
+<div id="t10_30" class="t s2_30">catch (Exception $e) </div>
+<div id="t11_30" class="t s2_30">{ </div>
+
+<!-- End text definitions -->
+
+<!-- Begin page background -->
+<div id="pg30Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg30"><object width="935" height="1210" data="30/30.svg" type="image/svg+xml" id="pdf30" style="width:935px; height:1210px; background-color:white; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+<!--[if lt IE 9]><script type="text/javascript">
+(function(divCount, pageNum) {
+for (var i = 1; i < divCount; i++) {
+    var div = document.getElementById('t' + i.toString(36) + '_' + pageNum);
+    if (div !== null) {
+        div.style.top = (div.offsetTop * 4) + 'px';
+        div.style.left = (div.offsetLeft * 4) + 'px';
+        div.style.zoom = '25%';
+    }
+}
+})(38, 30);
+</script><![endif]-->
+
+</div>
+</body>
+</html>

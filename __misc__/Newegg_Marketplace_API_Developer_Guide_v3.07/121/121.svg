@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_121"><path d="M47.5,183.5l0,-72l840,0l0,72Z" /></clipPath>
+<style type="text/css"><![CDATA[
+.g2_121{
+fill: none;
+stroke: #7E7E7E;
+stroke-width: 1;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+}
+.g1_121{
+fill: #F1F1F1;
+}
+]]></style>
+</defs>
+<path fill-rule="evenodd" d="M47,182l840,0l0,-71L47,111l0,71Z" class="g1_121" />
+<g clip-path="url(#c0_121)">
+<path fill-rule="evenodd" d="M55,135l825,0l0,-24L55,111l0,24Z" class="g1_121" />
+</g>
+<path fill-rule="evenodd" d="M55,159l825,0l0,-24L55,135l0,24Z" class="g1_121" />
+<path fill-rule="evenodd" d="M55,182l825,0l0,-23L55,159l0,23Z" class="g1_121" />
+<path d="M46.5,111.5l0,-1" class="g2_121" />
+<path d="M46.5,111.5l0,-1" class="g2_121" />
+<path d="M47.5,111.5l840,0" class="g2_121" />
+<path d="M887.5,111.5l0,-1" class="g2_121" />
+<path d="M887.5,111.5l0,-1" class="g2_121" />
+<path d="M46.5,183.5l0,-72" class="g2_121" />
+<path d="M46.5,184.5l0,-1" class="g2_121" />
+<path d="M46.5,184.5l0,-1" class="g2_121" />
+<path d="M47.5,184.5l840,0" class="g2_121" />
+<path d="M887.5,183.5l0,-72" class="g2_121" />
+<path d="M887.5,184.5l0,-1" class="g2_121" />
+<path d="M887.5,184.5l0,-1" class="g2_121" />
+</svg>

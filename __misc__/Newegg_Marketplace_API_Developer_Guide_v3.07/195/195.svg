@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_195"><path d="M47.5,159.5l0,-48l840,0l0,48Z" /></clipPath>
+<style type="text/css"><![CDATA[
+.g2_195{
+fill: none;
+stroke: #7E7E7E;
+stroke-width: 1;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+}
+.g3_195{
+fill: none;
+stroke: #0000FF;
+stroke-width: 1;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+}
+.g1_195{
+fill: #F1F1F1;
+}
+]]></style>
+</defs>
+<path fill-rule="evenodd" d="M47,159l840,0l0,-48L47,111l0,48Z" class="g1_195" />
+<g clip-path="url(#c0_195)">
+<path fill-rule="evenodd" d="M55,135l825,0l0,-24L55,111l0,24Z" class="g1_195" />
+</g>
+<path fill-rule="evenodd" d="M55,159l825,0l0,-24L55,135l0,24Z" class="g1_195" />
+<path d="M46.5,111.5l0,-1" class="g2_195" />
+<path d="M46.5,111.5l0,-1" class="g2_195" />
+<path d="M47.5,111.5l840,0" class="g2_195" />
+<path d="M887.5,111.5l0,-1" class="g2_195" />
+<path d="M887.5,111.5l0,-1" class="g2_195" />
+<path d="M46.5,159.5l0,-48" class="g2_195" />
+<path d="M46.5,160.5l0,-1" class="g2_195" />
+<path d="M46.5,160.5l0,-1" class="g2_195" />
+<path d="M47.5,160.5l840,0" class="g2_195" />
+<path d="M887.5,159.5l0,-48" class="g2_195" />
+<path d="M887.5,160.5l0,-1" class="g2_195" />
+<path d="M887.5,160.5l0,-1" class="g2_195" />
+<path d="M131.5,459.5l368,0" class="g3_195" />
+<path d="M131.5,483.5l620,0" class="g3_195" />
+<path d="M131.5,506.5l298,0" class="g3_195" />
+<path d="M131.5,530.5l270,0" class="g3_195" />
+<path d="M131.5,554.5l602,0" class="g3_195" />
+<path d="M131.5,578.5l242,0" class="g3_195" />
+<path d="M131.5,602.5l749,0" class="g3_195" />
+<path d="M131.5,625.5l114,0" class="g3_195" />
+<path d="M131.5,649.5l306,0" class="g3_195" />
+<path d="M131.5,673.5l316,0" class="g3_195" />
+<path d="M131.5,697.5l220,0" class="g3_195" />
+<path d="M131.5,721.5l236,0" class="g3_195" />
+</svg>

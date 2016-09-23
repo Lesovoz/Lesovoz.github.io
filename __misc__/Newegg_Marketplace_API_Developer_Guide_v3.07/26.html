@@ -1,0 +1,152 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="jpedal" style="overflow: hidden; position: relative; width: 935px; height: 1210px;">
+
+<!-- Begin shared CSS values -->
+<style type="text/css" >
+.t {
+	-webkit-transform-origin: top left;
+	-moz-transform-origin: top left;
+	-o-transform-origin: top left;
+	-ms-transform-origin: top left;
+	-webkit-transform: scale(0.25);
+	-moz-transform: scale(0.25);
+	-o-transform: scale(0.25);
+	-ms-transform: scale(0.25);
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_26{left:866px;top:1138px;}
+#t2_26{left:192px;top:113px;}
+#t3_26{left:192px;top:137px;letter-spacing:0.1px;}
+#t4_26{left:192px;top:161px;}
+#t5_26{left:192px;top:185px;}
+#t6_26{left:192px;top:208px;}
+#t7_26{left:192px;top:232px;}
+#t8_26{left:192px;top:256px;letter-spacing:0.1px;}
+#t9_26{left:192px;top:280px;}
+#ta_26{left:137px;top:328px;}
+#tb_26{left:137px;top:375px;}
+#tc_26{left:137px;top:399px;}
+#td_26{left:137px;top:447px;}
+#te_26{left:137px;top:471px;}
+#tf_26{left:137px;top:495px;}
+#tg_26{left:137px;top:542px;}
+#th_26{left:137px;top:566px;}
+#ti_26{left:137px;top:614px;}
+#tj_26{left:137px;top:661px;}
+#tk_26{left:165px;top:685px;}
+#tl_26{left:137px;top:709px;letter-spacing:0.7px;}
+#tm_26{left:137px;top:757px;}
+#tn_26{left:137px;top:781px;}
+#to_26{left:137px;top:828px;}
+#tp_26{left:137px;top:852px;}
+#tq_26{left:137px;top:876px;}
+#tr_26{left:110px;top:924px;}
+#ts_26{left:137px;top:947px;}
+#tt_26{left:110px;top:971px;letter-spacing:0.7px;}
+#tu_26{left:110px;top:995px;word-spacing:0.7px;}
+#tv_26{left:137px;top:1019px;}
+#tw_26{left:137px;top:1043px;}
+#tx_26{left:137px;top:1067px;}
+
+.s1_26{
+	FONT-SIZE: 55px;
+	FONT-FAMILY: 'Times New Roman', Times, serif;
+	color: rgb(0,0,0);
+}
+
+.s2_26{
+	FONT-SIZE: 55px;
+	FONT-FAMILY: CourierNew_gl26;
+	color: rgb(0,0,0);
+}
+
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts26" type="text/css" >
+
+@font-face {
+	font-family: CourierNew_gl26;
+	src: url("fonts/CourierNew_gl.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div id="t1_26" class="t s1_26">26 </div>
+<div id="t2_26" class="t s2_26">+ "&lt;Status&gt;1&lt;/Status&gt;" </div>
+<div id="t3_26" class="t s2_26">+ "&lt;Type&gt;1&lt;/Type&gt;" </div>
+<div id="t4_26" class="t s2_26">+ "&lt;OrderDateFrom&gt;2011-01-01 09:30:47&lt;/OrderDateFrom&gt;" </div>
+<div id="t5_26" class="t s2_26">+ "&lt;OrderDateTo&gt;2011-12-17 09:30:47&lt;/OrderDateTo&gt;" </div>
+<div id="t6_26" class="t s2_26">+ "&lt;OrderDownloaded&gt;0&lt;/OrderDownloaded&gt;" </div>
+<div id="t7_26" class="t s2_26">+ "&lt;/RequestCriteria&gt;" </div>
+<div id="t8_26" class="t s2_26">+ "&lt;/RequestBody&gt;" </div>
+<div id="t9_26" class="t s2_26">+ "&lt;/NeweggAPIRequest&gt;"; </div>
+<div id="ta_26" class="t s2_26">byte[] requestBody = requestStr.getBytes(); </div>
+<div id="tb_26" class="t s2_26">//Set content-length </div>
+<div id="tc_26" class="t s2_26">httpsConnection.setRequestProperty("Content-Length", String.valueOf(requestBody.length)); </div>
+<div id="td_26" class="t s2_26">OutputStream outStream = httpsConnection.getOutputStream(); </div>
+<div id="te_26" class="t s2_26">outStream.write(requestBody); </div>
+<div id="tf_26" class="t s2_26">outStream.close(); </div>
+<div id="tg_26" class="t s2_26">InputStreamReader inputReader = new InputStreamReader(httpsConnection.getInputStream()); </div>
+<div id="th_26" class="t s2_26">BufferedReader reader = new BufferedReader(inputReader); </div>
+<div id="ti_26" class="t s2_26">String responseBody = ""; </div>
+<div id="tj_26" class="t s2_26">while(reader.ready()){ </div>
+<div id="tk_26" class="t s2_26">responseBody += reader.readLine(); </div>
+<div id="tl_26" class="t s2_26">} </div>
+<div id="tm_26" class="t s2_26">reader.close(); </div>
+<div id="tn_26" class="t s2_26">inputReader.close(); </div>
+<div id="to_26" class="t s2_26">System.out.println("[" + Calendar.getInstance().getTime() + "]Response Message:"); </div>
+<div id="tp_26" class="t s2_26">System.out.println("-----------------------------------"); </div>
+<div id="tq_26" class="t s2_26">System.out.println(responseBody); </div>
+<div id="tr_26" class="t s2_26">} catch (MalformedURLException ex) { </div>
+<div id="ts_26" class="t s2_26">System.out.println("Illegal request URI:" + ex.getMessage()); </div>
+<div id="tt_26" class="t s2_26">} </div>
+<div id="tu_26" class="t s2_26">catch(Exception e){ </div>
+<div id="tv_26" class="t s2_26">System.out.println("Exception:" + e.getMessage()); </div>
+<div id="tw_26" class="t s2_26">//Error Handling for Bad Request </div>
+<div id="tx_26" class="t s2_26">InputStreamReader errorReader = new InputStreamReader(httpsConnection.getErrorStream()); </div>
+
+<!-- End text definitions -->
+
+<!-- Begin page background -->
+<div id="pg26Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg26"><object width="935" height="1210" data="26/26.svg" type="image/svg+xml" id="pdf26" style="width:935px; height:1210px; background-color:white; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+<!--[if lt IE 9]><script type="text/javascript">
+(function(divCount, pageNum) {
+for (var i = 1; i < divCount; i++) {
+    var div = document.getElementById('t' + i.toString(36) + '_' + pageNum);
+    if (div !== null) {
+        div.style.top = (div.offsetTop * 4) + 'px';
+        div.style.left = (div.offsetLeft * 4) + 'px';
+        div.style.zoom = '25%';
+    }
+}
+})(34, 26);
+</script><![endif]-->
+
+</div>
+</body>
+</html>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_197"><path d="M390.5,731.5l0,-620l497,0l0,620Z" /></clipPath>
+<clipPath id="c1_197"><path d="M47.5,805.5l0,-23l177,0l0,23Z" /></clipPath>
+<clipPath id="c2_197"><path d="M226.5,805.5l0,-23l162,0l0,23Z" /></clipPath>
+<clipPath id="c3_197"><path d="M390.5,805.5l0,-23l163,0l0,23Z" /></clipPath>
+<clipPath id="c4_197"><path d="M554.5,805.5l0,-23l163,0l0,23Z" /></clipPath>
+<clipPath id="c5_197"><path d="M719.5,805.5l0,-23l168,0l0,23Z" /></clipPath>
+<clipPath id="c6_197"><path d="M47.5,831.5l0,-24l177,0l0,24Z" /></clipPath>
+<clipPath id="c7_197"><path d="M226.5,831.5l0,-24l162,0l0,24Z" /></clipPath>
+<clipPath id="c8_197"><path d="M390.5,831.5l0,-24l163,0l0,24Z" /></clipPath>
+<clipPath id="c9_197"><path d="M554.5,831.5l0,-24l163,0l0,24Z" /></clipPath>
+<clipPath id="c10_197"><path d="M719.5,831.5l0,-24l168,0l0,24Z" /></clipPath>
+<style type="text/css"><![CDATA[
+.g2_197{
+fill: none;
+stroke: #7E7E7E;
+stroke-width: 1;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+}
+.g3_197{
+fill: #DBE5F1;
+}
+.g1_197{
+fill: #F1F1F1;
+}
+]]></style>
+</defs>
+<path fill-rule="evenodd" d="M47,731l177,0l0,-620L47,111l0,620Z" class="g1_197" />
+<path fill-rule="evenodd" d="M226,731l162,0l0,-620l-162,0l0,620Z" class="g1_197" />
+<path fill-rule="evenodd" d="M390,731l497,0l0,-620l-497,0l0,620Z" class="g1_197" />
+<g clip-path="url(#c0_197)">
+<path fill-rule="evenodd" d="M397,135l483,0l0,-24l-483,0l0,24Z" class="g1_197" />
+</g>
+<path fill-rule="evenodd" d="M397,159l483,0l0,-24l-483,0l0,24Z" class="g1_197" />
+<path fill-rule="evenodd" d="M397,182l483,0l0,-23l-483,0l0,23Z" class="g1_197" />
+<path fill-rule="evenodd" d="M397,206l483,0l0,-24l-483,0l0,24Z" class="g1_197" />
+<path fill-rule="evenodd" d="M397,230l483,0l0,-24l-483,0l0,24Z" class="g1_197" />
+<path fill-rule="evenodd" d="M397,254l483,0l0,-24l-483,0l0,24Z" class="g1_197" />
+<path fill-rule="evenodd" d="M397,278l483,0l0,-24l-483,0l0,24Z" class="g1_197" />
+<path fill-rule="evenodd" d="M397,302l483,0l0,-24l-483,0l0,24Z" class="g1_197" />
+<path fill-rule="evenodd" d="M397,325l483,0l0,-23l-483,0l0,23Z" class="g1_197" />
+<path fill-rule="evenodd" d="M397,349l483,0l0,-24l-483,0l0,24Z" class="g1_197" />
+<path fill-rule="evenodd" d="M397,373l483,0l0,-24l-483,0l0,24Z" class="g1_197" />
+<path fill-rule="evenodd" d="M397,397l483,0l0,-24l-483,0l0,24Z" class="g1_197" />
+<path fill-rule="evenodd" d="M397,421l483,0l0,-24l-483,0l0,24Z" class="g1_197" />
+<path fill-rule="evenodd" d="M397,445l483,0l0,-24l-483,0l0,24Z" class="g1_197" />
+<path fill-rule="evenodd" d="M397,469l483,0l0,-24l-483,0l0,24Z" class="g1_197" />
+<path fill-rule="evenodd" d="M397,492l483,0l0,-23l-483,0l0,23Z" class="g1_197" />
+<path fill-rule="evenodd" d="M397,516l483,0l0,-24l-483,0l0,24Z" class="g1_197" />
+<path fill-rule="evenodd" d="M397,540l483,0l0,-24l-483,0l0,24Z" class="g1_197" />
+<path fill-rule="evenodd" d="M397,564l483,0l0,-24l-483,0l0,24Z" class="g1_197" />
+<path fill-rule="evenodd" d="M397,588l483,0l0,-24l-483,0l0,24Z" class="g1_197" />
+<path fill-rule="evenodd" d="M397,612l483,0l0,-24l-483,0l0,24Z" class="g1_197" />
+<path fill-rule="evenodd" d="M397,635l483,0l0,-23l-483,0l0,23Z" class="g1_197" />
+<path fill-rule="evenodd" d="M397,659l483,0l0,-24l-483,0l0,24Z" class="g1_197" />
+<path fill-rule="evenodd" d="M397,683l483,0l0,-24l-483,0l0,24Z" class="g1_197" />
+<path fill-rule="evenodd" d="M397,707l483,0l0,-24l-483,0l0,24Z" class="g1_197" />
+<path fill-rule="evenodd" d="M397,731l483,0l0,-24l-483,0l0,24Z" class="g1_197" />
+<path d="M46.5,111.5l0,-1" class="g2_197" />
+<path d="M46.5,111.5l0,-1" class="g2_197" />
+<path d="M47.5,111.5l177,0" class="g2_197" />
+<path d="M224.5,111.5l0,-1" class="g2_197" />
+<path d="M226.5,111.5l162,0" class="g2_197" />
+<path d="M388.5,111.5l0,-1" class="g2_197" />
+<path d="M390.5,111.5l497,0" class="g2_197" />
+<path d="M887.5,111.5l0,-1" class="g2_197" />
+<path d="M887.5,111.5l0,-1" class="g2_197" />
+<path d="M46.5,731.5l0,-620" class="g2_197" />
+<path d="M46.5,732.5l0,-1" class="g2_197" />
+<path d="M46.5,732.5l0,-1" class="g2_197" />
+<path d="M47.5,732.5l177,0" class="g2_197" />
+<path d="M224.5,731.5l0,-620" class="g2_197" />
+<path d="M224.5,732.5l0,-1" class="g2_197" />
+<path d="M226.5,732.5l162,0" class="g2_197" />
+<path d="M388.5,731.5l0,-620" class="g2_197" />
+<path d="M388.5,732.5l0,-1" class="g2_197" />
+<path d="M390.5,732.5l497,0" class="g2_197" />
+<path d="M887.5,731.5l0,-620" class="g2_197" />
+<path d="M887.5,732.5l0,-1" class="g2_197" />
+<path d="M887.5,732.5l0,-1" class="g2_197" />
+<path fill-rule="evenodd" d="M47,805l177,0l0,-23L47,782l0,23Z" class="g3_197" />
+<g clip-path="url(#c1_197)">
+<path fill-rule="evenodd" d="M55,805l162,0l0,-23L55,782l0,23Z" class="g3_197" />
+</g>
+<path fill-rule="evenodd" d="M226,805l162,0l0,-23l-162,0l0,23Z" class="g3_197" />
+<g clip-path="url(#c2_197)">
+<path fill-rule="evenodd" d="M233,805l148,0l0,-23l-148,0l0,23Z" class="g3_197" />
+</g>
+<path fill-rule="evenodd" d="M390,805l163,0l0,-23l-163,0l0,23Z" class="g3_197" />
+<g clip-path="url(#c3_197)">
+<path fill-rule="evenodd" d="M397,805l148,0l0,-23l-148,0l0,23Z" class="g3_197" />
+</g>
+<path fill-rule="evenodd" d="M554,805l163,0l0,-23l-163,0l0,23Z" class="g3_197" />
+<g clip-path="url(#c4_197)">
+<path fill-rule="evenodd" d="M562,805l148,0l0,-23l-148,0l0,23Z" class="g3_197" />
+</g>
+<path fill-rule="evenodd" d="M719,805l168,0l0,-23l-168,0l0,23Z" class="g3_197" />
+<g clip-path="url(#c5_197)">
+<path fill-rule="evenodd" d="M726,805l154,0l0,-23l-154,0l0,23Z" class="g3_197" />
+</g>
+<path d="M46.5,782.5l0,-2" class="g2_197" />
+<path d="M46.5,782.5l0,-2" class="g2_197" />
+<path d="M47.5,782.5l177,0" class="g2_197" />
+<path d="M224.5,782.5l0,-2" class="g2_197" />
+<path d="M226.5,782.5l162,0" class="g2_197" />
+<path d="M388.5,782.5l0,-2" class="g2_197" />
+<path d="M390.5,782.5l163,0" class="g2_197" />
+<path d="M553.5,782.5l0,-2" class="g2_197" />
+<path d="M554.5,782.5l163,0" class="g2_197" />
+<path d="M717.5,782.5l0,-2" class="g2_197" />
+<path d="M719.5,782.5l168,0" class="g2_197" />
+<path d="M887.5,782.5l0,-2" class="g2_197" />
+<path d="M887.5,782.5l0,-2" class="g2_197" />
+<path d="M46.5,805.5l0,-23" class="g2_197" />
+<path d="M224.5,805.5l0,-23" class="g2_197" />
+<path d="M388.5,805.5l0,-23" class="g2_197" />
+<path d="M553.5,805.5l0,-23" class="g2_197" />
+<path d="M717.5,805.5l0,-23" class="g2_197" />
+<path d="M887.5,805.5l0,-23" class="g2_197" />
+<path fill-rule="evenodd" d="M47,831l177,0l0,-24L47,807l0,24Z" class="g1_197" />
+<g clip-path="url(#c6_197)">
+<path fill-rule="evenodd" d="M55,831l162,0l0,-24L55,807l0,24Z" class="g1_197" />
+</g>
+<path fill-rule="evenodd" d="M226,831l162,0l0,-24l-162,0l0,24Z" class="g1_197" />
+<g clip-path="url(#c7_197)">
+<path fill-rule="evenodd" d="M233,831l148,0l0,-24l-148,0l0,24Z" class="g1_197" />
+</g>
+<path fill-rule="evenodd" d="M390,831l163,0l0,-24l-163,0l0,24Z" class="g1_197" />
+<g clip-path="url(#c8_197)">
+<path fill-rule="evenodd" d="M397,831l148,0l0,-24l-148,0l0,24Z" class="g1_197" />
+</g>
+<path fill-rule="evenodd" d="M554,831l163,0l0,-24l-163,0l0,24Z" class="g1_197" />
+<g clip-path="url(#c9_197)">
+<path fill-rule="evenodd" d="M562,831l148,0l0,-24l-148,0l0,24Z" class="g1_197" />
+</g>
+<path fill-rule="evenodd" d="M719,831l168,0l0,-24l-168,0l0,24Z" class="g1_197" />
+<g clip-path="url(#c10_197)">
+<path fill-rule="evenodd" d="M726,831l154,0l0,-24l-154,0l0,24Z" class="g1_197" />
+</g>
+<path d="M46.5,807.5l0,-2" class="g2_197" />
+<path d="M47.5,807.5l177,0" class="g2_197" />
+<path d="M224.5,807.5l0,-2" class="g2_197" />
+<path d="M226.5,807.5l162,0" class="g2_197" />
+<path d="M388.5,807.5l0,-2" class="g2_197" />
+<path d="M390.5,807.5l163,0" class="g2_197" />
+<path d="M553.5,807.5l0,-2" class="g2_197" />
+<path d="M554.5,807.5l163,0" class="g2_197" />
+<path d="M717.5,807.5l0,-2" class="g2_197" />
+<path d="M719.5,807.5l168,0" class="g2_197" />
+<path d="M887.5,807.5l0,-2" class="g2_197" />
+<path d="M46.5,831.5l0,-24" class="g2_197" />
+<path d="M46.5,832.5l0,-1" class="g2_197" />
+<path d="M46.5,832.5l0,-1" class="g2_197" />
+<path d="M47.5,832.5l177,0" class="g2_197" />
+<path d="M224.5,831.5l0,-24" class="g2_197" />
+<path d="M224.5,832.5l0,-1" class="g2_197" />
+<path d="M226.5,832.5l162,0" class="g2_197" />
+<path d="M388.5,831.5l0,-24" class="g2_197" />
+<path d="M388.5,832.5l0,-1" class="g2_197" />
+<path d="M390.5,832.5l163,0" class="g2_197" />
+<path d="M553.5,831.5l0,-24" class="g2_197" />
+<path d="M553.5,832.5l0,-1" class="g2_197" />
+<path d="M554.5,832.5l163,0" class="g2_197" />
+<path d="M717.5,831.5l0,-24" class="g2_197" />
+<path d="M717.5,832.5l0,-1" class="g2_197" />
+<path d="M719.5,832.5l168,0" class="g2_197" />
+<path d="M887.5,831.5l0,-24" class="g2_197" />
+<path d="M887.5,832.5l0,-1" class="g2_197" />
+<path d="M887.5,832.5l0,-1" class="g2_197" />
+</svg>

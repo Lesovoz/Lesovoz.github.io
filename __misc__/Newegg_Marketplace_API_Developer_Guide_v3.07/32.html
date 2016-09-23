@@ -1,0 +1,181 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="jpedal" style="overflow: hidden; position: relative; width: 935px; height: 1210px;">
+
+<!-- Begin shared CSS values -->
+<style type="text/css" >
+.t {
+	-webkit-transform-origin: top left;
+	-moz-transform-origin: top left;
+	-o-transform-origin: top left;
+	-ms-transform-origin: top left;
+	-webkit-transform: scale(0.25);
+	-moz-transform: scale(0.25);
+	-o-transform: scale(0.25);
+	-ms-transform: scale(0.25);
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_32{left:866px;top:1138px;}
+#t2_32{left:87px;top:113px;}
+#t3_32{left:87px;top:137px;}
+#t4_32{left:87px;top:161px;}
+#t5_32{left:87px;top:185px;}
+#t6_32{left:87px;top:208px;}
+#t7_32{left:87px;top:232px;}
+#t8_32{left:87px;top:280px;}
+#t9_32{left:87px;top:304px;}
+#ta_32{left:87px;top:328px;}
+#tb_32{left:87px;top:351px;}
+#tc_32{left:87px;top:375px;}
+#td_32{left:87px;top:399px;}
+#te_32{left:87px;top:423px;}
+#tf_32{left:87px;top:447px;}
+#tg_32{left:87px;top:471px;}
+#th_32{left:87px;top:495px;}
+#ti_32{left:87px;top:542px;}
+#tj_32{left:87px;top:566px;}
+#tk_32{left:87px;top:590px;}
+#tl_32{left:87px;top:638px;}
+#tm_32{left:55px;top:661px;}
+#tn_32{left:55px;top:685px;}
+#to_32{left:55px;top:709px;}
+#tp_32{left:87px;top:733px;}
+#tq_32{left:87px;top:757px;}
+#tr_32{left:55px;top:781px;}
+#ts_32{left:55px;top:804px;}
+#tt_32{left:55px;top:828px;}
+#tu_32{left:87px;top:852px;}
+#tv_32{left:87px;top:876px;}
+#tw_32{left:55px;top:900px;}
+#tx_32{left:55px;top:924px;}
+#ty_32{left:70px;top:973px;letter-spacing:0.1px;word-spacing:10.4px;}
+#tz_32{left:55px;top:997px;letter-spacing:0.1px;}
+#t10_32{left:70px;top:1021px;letter-spacing:-0.1px;}
+#t11_32{left:102px;top:1021px;letter-spacing:0.1px;word-spacing:-1.5px;}
+#t12_32{left:70px;top:1045px;letter-spacing:-0.1px;}
+#t13_32{left:102px;top:1045px;letter-spacing:0.1px;word-spacing:-0.1px;}
+#t14_32{left:87px;top:1069px;letter-spacing:0.1px;}
+
+.s3_32{
+	FONT-SIZE: 60.9px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	color: rgb(0,0,0);
+}
+
+.s1_32{
+	FONT-SIZE: 55px;
+	FONT-FAMILY: 'Times New Roman', Times, serif;
+	color: rgb(0,0,0);
+}
+
+.s2_32{
+	FONT-SIZE: 55px;
+	FONT-FAMILY: CourierNew_gl32;
+	color: rgb(0,0,0);
+}
+
+#form1_32{	z-index:2;	cursor: pointer;	border-style:none;	position: absolute;	left:339px;	top:1018px;	width:258px;	height:26px;	text-align:left;	background: transparent;	font:normal 19px Arial, Helvetica, sans-serif;}
+
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts32" type="text/css" >
+
+@font-face {
+	font-family: CourierNew_gl32;
+	src: url("fonts/CourierNew_gl.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div id="t1_32" class="t s1_32">32 </div>
+<div id="t2_32" class="t s2_32">// Get the curl session object </div>
+<div id="t3_32" class="t s2_32">$session = curl_init($request); </div>
+<div id="t4_32" class="t s2_32">$putString = stripslashes($body); </div>
+<div id="t5_32" class="t s2_32">$putData = tmpfile(); </div>
+<div id="t6_32" class="t s2_32">fwrite($putData, $putString); </div>
+<div id="t7_32" class="t s2_32">fseek($putData, 0); </div>
+<div id="t8_32" class="t s2_32">// Set the POST options. </div>
+<div id="t9_32" class="t s2_32">curl_setopt($session, CURLOPT_HEADER, 1); </div>
+<div id="ta_32" class="t s2_32">curl_setopt($session,CURLOPT_HTTPHEADER,$header_array); </div>
+<div id="tb_32" class="t s2_32">curl_setopt($session, CURLOPT_PUT, true); </div>
+<div id="tc_32" class="t s2_32">curl_setopt($session, CURLOPT_HEADER, false); </div>
+<div id="td_32" class="t s2_32">curl_setopt($session, CURLOPT_RETURNTRANSFER, true); </div>
+<div id="te_32" class="t s2_32">curl_setopt($session, CURLOPT_POSTFIELDS, $body); </div>
+<div id="tf_32" class="t s2_32">curl_setopt($session, CURLOPT_SSL_VERIFYPEER, 0); </div>
+<div id="tg_32" class="t s2_32">curl_setopt($session, CURLOPT_INFILE, $putData); </div>
+<div id="th_32" class="t s2_32">curl_setopt($session, CURLOPT_INFILESIZE, strlen($putString)); </div>
+<div id="ti_32" class="t s2_32">// Do the POST and then close the session </div>
+<div id="tj_32" class="t s2_32">$response = curl_exec($session); </div>
+<div id="tk_32" class="t s2_32">curl_close($session); </div>
+<div id="tl_32" class="t s2_32">print $response; </div>
+<div id="tm_32" class="t s2_32">} </div>
+<div id="tn_32" class="t s2_32">catch (InvalidArgumentException $e) </div>
+<div id="to_32" class="t s2_32">{ </div>
+<div id="tp_32" class="t s2_32">curl_close($session); </div>
+<div id="tq_32" class="t s2_32">throw $e; </div>
+<div id="tr_32" class="t s2_32">} </div>
+<div id="ts_32" class="t s2_32">catch (Exception $e) </div>
+<div id="tt_32" class="t s2_32">{ </div>
+<div id="tu_32" class="t s2_32">curl_close($session); </div>
+<div id="tv_32" class="t s2_32">throw $e; </div>
+<div id="tw_32" class="t s2_32">} </div>
+<div id="tx_32" class="t s2_32">?&gt; </div>
+<div id="ty_32" class="t s3_32">The code example below demonstrates how to access Newegg API with pecl http request extension under LINUX </div>
+<div id="tz_32" class="t s3_32">system. </div>
+<div id="t10_32" class="t s3_32">1. </div>
+<div id="t11_32" class="t s3_32">Download pecl_http extension from <a href="http://pecl.php.net/package/pecl_http," target="_blank">http://pecl.php.net/package/pecl_http,</a> get the latest stable version such as 1.7.1 </div>
+<div id="t12_32" class="t s3_32">2. </div>
+<div id="t13_32" class="t s3_32">Install the extension( refer to : </div>
+<div id="t14_32" class="t s3_32"><a href="http://www.zipservers.com/community/showthread.php?59-How-to-install-PECL-Modules-on-Linux)" target="_blank">http://www.zipservers.com/community/showthread.php?59-How-to-install-PECL-Modules-on-Linux)</a> </div>
+
+<!-- End text definitions -->
+
+
+<!-- Begin Form Data -->
+<form>
+<input type="button"  tabindex="1"  id="form1_32" data-objref="674 0 R" title="http://pecl.php.net/package/pecl_http" onclick="window.open('http://pecl.php.net/package/pecl_http','_blank');" />
+
+</form>
+<!-- End Form Data -->
+<!-- Begin page background -->
+<div id="pg32Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg32"><object width="935" height="1210" data="32/32.svg" type="image/svg+xml" id="pdf32" style="width:935px; height:1210px; background-color:white; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+<!--[if lt IE 9]><script type="text/javascript">
+(function(divCount, pageNum) {
+for (var i = 1; i < divCount; i++) {
+    var div = document.getElementById('t' + i.toString(36) + '_' + pageNum);
+    if (div !== null) {
+        div.style.top = (div.offsetTop * 4) + 'px';
+        div.style.left = (div.offsetLeft * 4) + 'px';
+        div.style.zoom = '25%';
+    }
+}
+})(41, 32);
+</script><![endif]-->
+
+</div>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="jpedal" style="overflow: hidden; position: relative; width: 935px; height: 1210px;">
+
+<!-- Begin shared CSS values -->
+<style type="text/css" >
+.t {
+	-webkit-transform-origin: top left;
+	-moz-transform-origin: top left;
+	-o-transform-origin: top left;
+	-ms-transform-origin: top left;
+	-webkit-transform: scale(0.25);
+	-moz-transform: scale(0.25);
+	-o-transform: scale(0.25);
+	-ms-transform: scale(0.25);
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_21{left:866px;top:1138px;}
+#t2_21{left:87px;top:113px;word-spacing:0.1px;}
+#t3_21{left:87px;top:137px;}
+#t4_21{left:87px;top:185px;}
+#t5_21{left:87px;top:208px;}
+#t6_21{left:87px;top:232px;}
+#t7_21{left:87px;top:280px;}
+#t8_21{left:87px;top:304px;}
+#t9_21{left:87px;top:328px;}
+#ta_21{left:87px;top:351px;}
+#tb_21{left:87px;top:375px;}
+#tc_21{left:87px;top:399px;}
+#td_21{left:87px;top:447px;}
+#te_21{left:87px;top:471px;}
+#tf_21{left:87px;top:518px;}
+#tg_21{left:87px;top:542px;}
+#th_21{left:114px;top:566px;}
+#ti_21{left:87px;top:590px;}
+#tj_21{left:87px;top:638px;}
+#tk_21{left:87px;top:661px;}
+#tl_21{left:87px;top:685px;}
+#tm_21{left:114px;top:709px;}
+#tn_21{left:114px;top:733px;letter-spacing:0.7px;}
+#to_21{left:119px;top:757px;}
+#tp_21{left:147px;top:781px;}
+#tq_21{left:119px;top:828px;}
+#tr_21{left:114px;top:852px;letter-spacing:0.7px;}
+#ts_21{left:114px;top:900px;}
+#tt_21{left:114px;top:924px;letter-spacing:0.7px;}
+#tu_21{left:119px;top:947px;}
+#tv_21{left:147px;top:971px;}
+#tw_21{left:119px;top:995px;}
+#tx_21{left:147px;top:1019px;}
+#ty_21{left:114px;top:1043px;letter-spacing:0.7px;}
+#tz_21{left:87px;top:1067px;}
+
+.s1_21{
+	FONT-SIZE: 55px;
+	FONT-FAMILY: 'Times New Roman', Times, serif;
+	color: rgb(0,0,0);
+}
+
+.s2_21{
+	FONT-SIZE: 55px;
+	FONT-FAMILY: CourierNew_gl21;
+	color: rgb(0,0,0);
+}
+
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts21" type="text/css" >
+
+@font-face {
+	font-family: CourierNew_gl21;
+	src: url("fonts/CourierNew_gl.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div id="t1_21" class="t s1_21">21 </div>
+<div id="t2_21" class="t s2_21">request.ContentType = "application/xml"; </div>
+<div id="t3_21" class="t s2_21">request.Accept = "application/xml"; </div>
+<div id="t4_21" class="t s2_21">//Attach authorization information </div>
+<div id="t5_21" class="t s2_21">request.Headers.Add("Authorization", "your API-key here"); </div>
+<div id="t6_21" class="t s2_21">request.Headers.Add("Secretkey", "your secretkey here"); </div>
+<div id="t7_21" class="t s2_21">//Construct the query criteria in the request body </div>
+<div id="t8_21" class="t s2_21">string requestBody = @" </div>
+<div id="t9_21" class="t s2_21">&lt;ContentQueryCriteria&gt; </div>
+<div id="ta_21" class="t s2_21">&lt;Type&gt;1&lt;/Type&gt; </div>
+<div id="tb_21" class="t s2_21">&lt;Value&gt;A006ZX-35833&lt;/Value&gt; </div>
+<div id="tc_21" class="t s2_21">&lt;/ContentQueryCriteria&gt;"; </div>
+<div id="td_21" class="t s2_21">byte[] byteStr = Encoding.UTF8.GetBytes(requestBody); </div>
+<div id="te_21" class="t s2_21">request.ContentLength = byteStr.Length; </div>
+<div id="tf_21" class="t s2_21">using (Stream stream = request.GetRequestStream()) </div>
+<div id="tg_21" class="t s2_21">{ </div>
+<div id="th_21" class="t s2_21">stream.Write(byteStr, 0, byteStr.Length); </div>
+<div id="ti_21" class="t s2_21">} </div>
+<div id="tj_21" class="t s2_21">//Parse the response </div>
+<div id="tk_21" class="t s2_21">using (HttpWebResponse response = request.GetResponse() as HttpWebResponse) </div>
+<div id="tl_21" class="t s2_21">{ </div>
+<div id="tm_21" class="t s2_21">if (response.StatusCode != HttpStatusCode.OK) </div>
+<div id="tn_21" class="t s2_21">{ </div>
+<div id="to_21" class="t s2_21">Console.WriteLine(String.Format("Code:{0}.Error:{1}", </div>
+<div id="tp_21" class="t s2_21">response.StatusCode.ToString(), response.StatusDescription)); </div>
+<div id="tq_21" class="t s2_21">return; </div>
+<div id="tr_21" class="t s2_21">} </div>
+<div id="ts_21" class="t s2_21">using (Stream responseStream = response.GetResponseStream()) </div>
+<div id="tt_21" class="t s2_21">{ </div>
+<div id="tu_21" class="t s2_21">XmlSerializer serializer = </div>
+<div id="tv_21" class="t s2_21">new XmlSerializer(typeof(InventoryResult)); </div>
+<div id="tw_21" class="t s2_21">inventoryResult = </div>
+<div id="tx_21" class="t s2_21">serializer.Deserialize(responseStream) as InventoryResult; </div>
+<div id="ty_21" class="t s2_21">} </div>
+<div id="tz_21" class="t s2_21">} </div>
+
+<!-- End text definitions -->
+
+<!-- Begin page background -->
+<div id="pg21Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg21"><object width="935" height="1210" data="21/21.svg" type="image/svg+xml" id="pdf21" style="width:935px; height:1210px; background-color:white; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+<!--[if lt IE 9]><script type="text/javascript">
+(function(divCount, pageNum) {
+for (var i = 1; i < divCount; i++) {
+    var div = document.getElementById('t' + i.toString(36) + '_' + pageNum);
+    if (div !== null) {
+        div.style.top = (div.offsetTop * 4) + 'px';
+        div.style.left = (div.offsetLeft * 4) + 'px';
+        div.style.zoom = '25%';
+    }
+}
+})(36, 21);
+</script><![endif]-->
+
+</div>
+</body>
+</html>
