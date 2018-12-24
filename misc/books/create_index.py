@@ -11,10 +11,15 @@ for dir in sorted(cur_dir.rglob('')):
         with open(dir / 'index.html', 'w') as idx:
             print('========', dir, '========')
 
-            hrefs = "<br>\n".join(f'<a href="{quote_plus(f.name)}">{f.name}</a>' for f in sorted(dir.iterdir()) if f.name != 'index.html' and not f.name.endswith('.py'))
+            hrefs = "<br>\n".join(f'''<a href="{quote_plus(f.name, encoding='utf8')}">{f.name}</a>''' for f in sorted(dir.iterdir()) if f.name != 'index.html' and not f.name.endswith('.py'))
 
             txt = f'''<!DOCTYPE html>
 <html>
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listing</title>
+</head>
 <body>            
 
 {hrefs}
