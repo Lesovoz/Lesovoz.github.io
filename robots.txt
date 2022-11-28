@@ -1,4 +1,4 @@
 # robotstxt.org/
 
 User-agent: *
-Sitemap: https://lesovoz.by/sitemap.txt
+Sitemap: https://lesovoz.github.io/sitemap.txt
